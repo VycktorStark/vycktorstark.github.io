@@ -184,10 +184,6 @@ input, select, textarea {
 		margin-bottom: 1em;
 	}
 
-	p {
-		text-align: justify;
-	}
-
 	br.clear {
 		clear: both;
 	}
@@ -1746,6 +1742,7 @@ input, select, textarea {
 
 	section, article {
 		margin-bottom: 3em;
+		text-align: center;
 	}
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
@@ -2044,56 +2041,6 @@ input, select, textarea {
 
 			table.default tfoot {
 				border-top: solid 2px #e5e5e5;
-			}
-
-/* Button */
-
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
-	button,
-	.button {
-		position: relative;
-		display: inline-block;
-		background: #df7366;
-		color: #fff;
-		text-align: center;
-		border-radius: 0.5em;
-		text-decoration: none;
-		padding: 0.65em 3em 0.65em 3em;
-		border: 0;
-		cursor: pointer;
-		outline: 0;
-		font-weight: 300;
-		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-	}
-
-		input[type="button"]:hover,
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		button:hover,
-		.button:hover {
-			color: #fff;
-			background: #ef8376;
-		}
-
-		input[type="button"].alt,
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		button.alt,
-		.button.alt {
-			background: #2B252C;
-		}
-
-			input[type="button"].alt:hover,
-			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			button.alt:hover,
-			.button.alt:hover {
-				background: #3B353C;
 			}
 
 /* Post */
@@ -3126,8 +3073,8 @@ input, select, textarea {
 	border-radius: 250px;
 	}
 
-/* butom */
-.btn {
+/* Button */
+.button {
     display: inline-block;
     margin-bottom: 0;
     font-weight: normal;
@@ -3147,7 +3094,7 @@ input, select, textarea {
     -ms-user-select: none;
     user-select: none;
 }
-.btn.btn-primary {
+.button.button-primary {
     background: #7b9d6f;
     color: #fff;
     border: none;
@@ -3161,23 +3108,23 @@ input, select, textarea {
     transition: all 0.2s ease;
 }
 
-.btn-uppercase {
+.button-uppercase {
     text-transform: uppercase;
     letter-spacing: .2em;
 }
-.btn-lg, .btn-group-lg>.btn {
+.button-lg {
     padding: 10px 16px;
     font-size: 18px;
     line-height: 1.33;
     border-radius: 6px;
 }
-.btn-primary {
+.button-primary {
     color: #fff;
     background-color: #d13f19;
     border-color: #ba3816;
 }
 
-.btn.btn-primary.btn-effect i {
+.button.button-primary.button-effect i {
 	-moz-transition: all 0.2s ease;
 	-o-transition: all 0.2s ease;
 	-webkit-transition: all 0.2s ease;
@@ -3187,7 +3134,7 @@ input, select, textarea {
 	margin-top: 2px;
 	right: 7px;
 }
-.btn.btn-primary.btn-effect:hover {
+.button.button-primary.button-effect:hover {
 	box-shadow: none;
 	color: #fff;
 	background: #f66d52;
