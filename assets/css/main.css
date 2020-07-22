@@ -3062,7 +3062,19 @@ input, select, textarea {
 
 	}
 
+/* imagem */
+
 #img_top {
+	padding: 5;
+	width: 218px;
+	height: 218px;
+	max-height: 218px;
+	border: 5px solid rgba(255, 255, 255, 0.12);
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
+	border-radius: 250px;
+	}
+#imgprojetos {
 	padding: 5;
 	width: 218px;
 	height: 218px;
